@@ -21,14 +21,6 @@ int BF_Matching(string text, string pattern){
      return -1;
 }
 
-int main() {
-    string str1 = "Abououkal Salma";
-    string pat = "Abououkal";
-    //cout << str1.length() << endl;
-   // cout << str1[1] << endl;
-    cout << BF_Matching(str1, pat) << endl;
-   
-    
     string pattern;
     ifstream myfile("/Users/refaatabououkal/Desktop/pattern.txt");
     if (myfile.is_open())
